@@ -6,7 +6,13 @@
           <i class="iconfont icon-guanliyuan admin"></i>
           <div>
             <p>New visits</p>
-           <b><countTo :startVal="0" :endVal="HomeData.visits" :duration="3000"></countTo></b>
+            <b
+              ><countTo
+                :startVal="0"
+                :endVal="HomeData.visits"
+                :duration="3000"
+              ></countTo
+            ></b>
           </div>
         </el-card>
 
@@ -14,7 +20,13 @@
           <i class="iconfont icon-xiaoxi news"></i>
           <div>
             <p>Messages</p>
-            <b><countTo :startVal="0" :endVal="HomeData.messages" :duration="3000"></countTo></b>
+            <b
+              ><countTo
+                :startVal="0"
+                :endVal="HomeData.messages"
+                :duration="3000"
+              ></countTo
+            ></b>
           </div>
         </el-card>
 
@@ -22,7 +34,13 @@
           <i class="iconfont icon-qian4 money"></i>
           <div>
             <p>Purchases</p>
-            <b><countTo :startVal="0" :endVal="HomeData.purchases" :duration="3000"></countTo></b>
+            <b
+              ><countTo
+                :startVal="0"
+                :endVal="HomeData.purchases"
+                :duration="3000"
+              ></countTo
+            ></b>
           </div>
         </el-card>
 
@@ -30,7 +48,13 @@
           <i class="iconfont icon-gouwuche shop"></i>
           <div>
             <p>Shopping</p>
-           <b><countTo :startVal="0" :endVal="HomeData.shopping" :duration="3000"></countTo></b>
+            <b
+              ><countTo
+                :startVal="0"
+                :endVal="HomeData.shopping"
+                :duration="3000"
+              ></countTo
+            ></b>
           </div>
         </el-card>
       </div>
@@ -39,11 +63,11 @@
 </template>
 
 <script>
-import countTo from 'vue-count-to';
+import countTo from "vue-count-to";
 export default {
   name: "",
   props: {},
-  components: {countTo},
+  components: { countTo },
   data() {
     return {
       HomeData: "",
@@ -81,8 +105,6 @@ export default {
   width: 300px;
   height: 100px;
   margin: 30px 13px;
-  width: 300px;
-  height: 100px;
   div {
     float: right;
     p {
