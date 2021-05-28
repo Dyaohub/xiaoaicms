@@ -1,0 +1,356 @@
+/* 颜端遥帅哥的类名库 */
+.dis-flex {
+    display: flex;
+}
+
+.dis-grid {
+    display: grid;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-nowrap {
+    flex-wrap: nowrap;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+.f-2 {
+    flex: 2;
+}
+
+.f-3 {
+    flex: 3;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-over {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text-scroll {
+    width: 90%;
+    margin-top: 10%;
+    font-size: 16px;
+    /* 1.必须设置显示 为这-webkit-box;才能生效*/
+    display: -webkit-box;
+    /* 2.只显示y轴滑动条 */
+    overflow-y: scroll;
+    /* 3.只允许显示的行数 */
+    -webkit-line-clamp: 5;
+    /* 4.表示从上向下排列 */
+    -webkit-box-orient: vertical;
+}
+
+.wid-5 {
+    width: 5%;
+}
+
+.wid-10 {
+    width: 10%;
+}
+
+.wid-15 {
+    width: 15%;
+}
+
+.wid-20 {
+    width: 20%;
+}
+
+.wid-30 {
+    width: 30%;
+}
+
+.wid-40 {
+    width: 40%;
+}
+
+.wid-50 {
+    width: 50%;
+}
+
+.wid-60 {
+    width: 60%;
+}
+
+.wid-70 {
+    width: 70%;
+}
+
+.wid-80 {
+    width: 80%;
+}
+
+.wid-90 {
+    width: 90%;
+}
+
+.wid-100 {
+    width: 100%;
+}
+
+.wid-5px {
+    width: 5px;
+}
+
+.wid-10px {
+    width: 10px;
+}
+
+.wid-15px {
+    width: 15px;
+}
+
+.wid-20px {
+    width: 20px;
+}
+
+.wid-30px {
+    width: 30px;
+}
+
+.wid-40px {
+    width: 40px;
+}
+
+.wid-50px {
+    width: 50px;
+}
+
+.wid-60px {
+    width: 60px;
+}
+
+.wid-70px {
+    width: 70px;
+}
+
+.wid-80px {
+    width: 80px;
+}
+
+.wid-90px {
+    width: 90px;
+}
+
+.wid-100px {
+    width: 100px;
+}
+
+.wid-200px {
+    width: 200px;
+}
+
+.wid-300px {
+    width: 300px;
+}
+
+.wid-400px {
+    width: 400px;
+}
+
+.wid-500px {
+    width: 500px;
+}
+
+.wid-600px {
+    width: 600px;
+}
+
+.wid-700px {
+    width: 700px;
+}
+
+.wid-800px {
+    width: 800px;
+}
+
+.wid-900px {
+    width: 900px;
+}
+
+.wid-1000px {
+    width: 1000px;
+}
+
+.wid-1200px {
+    width: 1200px;
+}
+
+.hei-5px {
+    height: 5px;
+}
+
+.hei-10px {
+    height: 10px;
+}
+
+.hei-15px {
+    height: 15px;
+}
+
+.hei-20px {
+    height: 20px;
+}
+
+.hei-30px {
+    height: 30px;
+}
+
+.hei-40px {
+    height: 40px;
+}
+
+.hei-50px {
+    height: 50px;
+}
+
+.hei-60px {
+    height: 60px;
+}
+
+.hei-70px {
+    height: 70px;
+}
+
+.hei-80px {
+    height: 80px;
+}
+
+.hei-90px {
+    height: 90px;
+}
+
+.hei-100px {
+    height: 100px;
+}
+
+.hei-200px {
+    height: 200px;
+}
+
+.hei-300px {
+    height: 300px;
+}
+
+.hei-400px {
+    height: 400px;
+}
+
+.hei-500px {
+    height: 500px;
+}
+
+.hei-600px {
+    height: 600px;
+}
+
+.hei-700px {
+    height: 700px;
+}
+
+.hei-800px {
+    height: 800px;
+}
+
+.hei-900px {
+    height: 900px;
+}
+
+.hei-1000px {
+    height: 1000px;
+}
+
+.hei-1200px {
+    height: 1200px;
+}
+
+.ml-5px {
+    margin-left: 5px;
+}
+
+.ml-10px {
+    margin-left: 10px;
+}
+
+.ml-15px {
+    margin-left: 15px;
+}
+
+.ml-20px {
+    margin-left: 20px;
+}
+
+.ml-30px {
+    margin-left: 30px;
+}
+
+.ml-40px {
+    margin-left: 40px;
+}
+
+.ml-50px {
+    margin-left: 50px;
+}
+
+.ml-60px {
+    margin-left: 60px;
+}
+
+.ml-70px {
+    margin-left: 70px;
+}
+
+.ml-80px {
+    margin-left: 80px;
+}
+
+.ml-90px {
+    margin-left: 90px;
+}
+
+.ml-100px {
+    margin-left: 100px;
+}
+
+.bor-rad {
+    border-radius: 50%;
+}
