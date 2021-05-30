@@ -54,14 +54,15 @@ export default {
 <style scoped lang='scss'>
 //头部欢迎栏
 .heads {
+  display: flex;
   background: #2e5e85;
-  width: 100%;
   height: 48px;
-  color: #dae0e7;
 }
 .texts {
-  margin: 0 10px;
+  flex: 1;
+  color: #dae0e7;
   position: relative;
-  top: 12px;
+  top: 5px;
+  margin: 0 5px;
 }
 </style>

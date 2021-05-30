@@ -98,13 +98,11 @@ export default {
 //卡片样式
 .Cardflex {
   display: flex;
-  position: relative;
-  left: 10px;
 }
 .Card {
-  width: 300px;
+  width: 335px;
   height: 100px;
-  margin: 30px 13px;
+  margin: 10px;
   div {
     float: right;
     p {

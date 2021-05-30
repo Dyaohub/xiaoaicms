@@ -55,7 +55,7 @@ export default {
   },
   mounted() {
     this.flag = 0;
-    this.$router.push("/Chart")
+    this.$router.push("/Chart");
   },
   watch: {},
   computed: {},
@@ -67,7 +67,6 @@ export default {
 .bjs {
   background-color: #344055;
   border: 1px solid #344055;
-  width: 200px;
   height: 650px;
 }
 .text-Color {
