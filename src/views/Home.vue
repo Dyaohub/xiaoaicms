@@ -1,8 +1,8 @@
-<template>
+//<template>
   <div><Head></Head><Sidebar></Sidebar></div>
 </template>
 
-<script>
+// <script>
 import Head from "../components/head/Head";
 import Sidebar from "../components/sidebar/Sidebar";
 export default {
@@ -20,7 +20,7 @@ export default {
   watch: {},
   computed: {},
 };
-</script>
+//</script>
 
-<style scoped lang='scss'>
-</style>
+//<style scoped lang='scss'>
+//</style>

@@ -67,6 +67,7 @@ export default {
 .bjs {
   background-color: #344055;
   border: 1px solid #344055;
+  width: 122px;
   height: 650px;
 }
 .text-Color {
