@@ -12,7 +12,7 @@ const routes = [
     component: Home,
     meta: {
       title: '首页-小爱后台管理系统',
-      
+
     },
 
   },
@@ -37,6 +37,13 @@ const routes = [
           title: '图表-小爱后台管理系统'
         },
       },
+      {
+        path: '/Chat', name: 'chat',
+        component: () => import('../views/chat/Chat.vue'),
+        meta: {
+          title: '聊天室-小爱后台管理系统'
+        },
+      }
     ]
   },
   {

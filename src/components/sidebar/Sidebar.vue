@@ -10,6 +10,7 @@
           <div class="el-icon-collection-tag"></div>
           <div class="el-icon-upload"></div>
           <div class="el-icon-picture"></div>
+          <div class="el-icon-loading"></div>
           <div class="el-icon-s-custom"></div>
         </div>
         <div class="Flexs">
@@ -43,7 +44,8 @@ export default {
         { id: 500, name: "标签页" },
         { id: 600, name: "导出excel" },
         { id: 700, name: "图片上传" },
-        { id: 800, name: "退出系统" },
+        { id: 800, name: "聊天室" },
+        { id: 900, name: "退出系统" },
       ],
       flag: "",
     };
@@ -68,7 +70,7 @@ export default {
   background-color: #344055;
   border: 1px solid #344055;
   width: 122px;
-  height: 650px;
+  height: 100%;
 }
 .text-Color {
   color: #ecf4f7;

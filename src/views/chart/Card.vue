@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <div class="Cardflex">
+      <div class="dis-flex felxwap">
         <el-card class="Card" shadow="always">
           <i class="iconfont icon-guanliyuan admin"></i>
           <div>
@@ -46,7 +46,7 @@
 
         <el-card class="Card" shadow="always">
           <i class="iconfont icon-gouwuche shop"></i>
-          <div>
+          <div class="posdiv">
             <p>Shopping</p>
             <b
               ><countTo
@@ -96,16 +96,11 @@ export default {
 
 <style scoped lang='scss'>
 //卡片样式
-.Cardflex {
-  display: flex;
- 
-}
 .Card {
-  width: 330px;
-  height: 100px;
-   margin: 8px;
-   position: relative;
-   left: 10px;
+  position: relative;
+  top: 6px;
+  flex: 1;
+  margin: 1px;
   div {
     float: right;
     p {
@@ -132,5 +127,24 @@ i {
 }
 .shop {
   color: #febb87;
+}
+@media screen and (min-width: 300px) {
+  .felxwap {
+    display: flex;
+    flex-wrap: wrap;
+
+    i {
+      position: relative;
+      right: 18px;
+    }
+  }
+  p {
+    position: relative;
+    left: 20px;
+  }
+  b {
+    position: relative;
+    left: 18px;
+  }
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="heads">
-      <div class="texts dis-flex j-between">
-        <div>欢迎{{ username }}来到小爱后台管理系统</div>
-        <div>
+      <div class="texts">
+        <div class="text1">欢迎{{ username }}来到小爱后台管理系统</div>
+        <div class="text2 wids">
           {{ hello }}，亲爱的{{ username }}&nbsp;上次登录时间：{{ times }}
         </div>
       </div>
@@ -54,15 +54,29 @@ export default {
 <style scoped lang='scss'>
 //头部欢迎栏
 .heads {
-  display: flex;
   background: #2e5e85;
-  height: 48px;
+  width: 100%;
+  height: 100%;
 }
+
 .texts {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
   color: #dae0e7;
   position: relative;
-  top: 5px;
+  top: 1px;
   margin: 0 5px;
+}
+
+@media screen and (min-width: 300px) {
+  .texts {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      font-size: 12px;
+      width: 29%;
+    }
+  }
 }
 </style>

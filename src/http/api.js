@@ -42,11 +42,33 @@ export default {
         return service.get('/captcha')
     },
 
-    // 计数器: 
+    // 计数器
     getHomeData() {
 
         return service.get('/homeData')
+    },
+
+    // 折线图
+    getHomeChat() {
+
+        return service.get('/homeChat')
+    },
+
+    // 雷达图
+    getRadarChat() {
+
+        return service.get('/radarChat')
+    },
+
+    // 饼图
+    getRingChat() {
+
+        return service.get('/ringChat')
+    },
+
+    // 柱状图 
+    gethomeData() {
+
+        return service.get('/homeChat')
     }
-
-
 }

@@ -2,8 +2,8 @@
   <div>
     <div><Head></Head></div>
     <div class="dis-flex">
-      <div><Sidebar></Sidebar></div>
-      <div><router-view></router-view></div>
+      <div class="side"><Sidebar></Sidebar></div>
+      <div class="route"><router-view></router-view></div>
     </div>
   </div>
 </template>
@@ -29,4 +29,22 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+  .side{
+    flex: 1;
+  }
+  .route{
+    flex: 9;
+  }
+
+@media all and (min-width: 300px) {
+  .dis-flex {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+    .route{
+    width: 20%;
+  }
+}
 </style>
