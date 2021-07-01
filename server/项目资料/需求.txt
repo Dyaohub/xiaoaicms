@@ -104,7 +104,7 @@
         - 参数:
           - username: 用户名
           - password: 密码
-          - code: 验证码
+          - code: 验证码  
 
     - 退出登录: /user/logout (get请求)
 

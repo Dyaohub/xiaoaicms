@@ -23,10 +23,10 @@ const routes = [
     children: [
       {
         path: '/',
-        name: 'home',
+        name: 'home2',
         component: Home,
         meta: {
-          title: '首页-小爱后台管理系统'
+          title: '首页-小爱后台管理系统',
         },
       },
       {
@@ -34,7 +34,17 @@ const routes = [
         name: 'chart',
         component: () => import('../views/chart/Chart.vue'),
         meta: {
-          title: '图表-小爱后台管理系统'
+          title: '图表-小爱后台管理系统',
+          index: 0
+        },
+      },
+      {
+        path: '/Form',
+        name: 'form',
+        component: () => import('../views/form/Form.vue'),
+        meta: {
+          title: '表格-小爱后台管理系统',
+          index: 1
         },
       },
       {

@@ -70,5 +70,20 @@ export default {
     gethomeData() {
 
         return service.get('/homeChat')
+    },
+
+    // 订单:
+    getorderData() {
+        return service.get('/orderData')
+    },
+
+    // 进度条
+    getprogress() {
+        return service.get('/progress')
+    },
+
+    // 表格数据: 
+    gettableData() {
+        return service.get('tableData')
     }
 }

@@ -3,6 +3,7 @@
     <Card></Card>
     <Lines></Lines>
     <Figure></Figure>
+    <Order></Order>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Card from "../../views/chart/Card";
 import Lines from "../../views/chart/Lines";
 import Figure from "../../views/chart/Figure";
+import Order from "../../views/chart/Order";
 export default {
   name: "",
   props: {},
@@ -17,6 +19,7 @@ export default {
     Card,
     Lines,
     Figure,
+    Order,
   },
   data() {
     return {};

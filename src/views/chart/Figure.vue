@@ -9,7 +9,6 @@
       </el-card>
       <el-card class="box-card">
         <ve-histogram
-          class=""
           :data="chartData3"
           :settings="chartSettings2"
         ></ve-histogram>
@@ -31,6 +30,7 @@ export default {
       metrics: ["expected", "actual"],
       dimension: ["date"],
     };
+
     return {
       chartData1: {
         columns: [
@@ -115,8 +115,6 @@ export default {
 .box-card {
   flex: 1;
   margin: 8px;
-  height:100%;
-
+  height: 100%;
 }
-
 </style>
